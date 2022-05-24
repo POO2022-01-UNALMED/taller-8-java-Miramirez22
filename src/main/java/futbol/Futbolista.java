@@ -20,7 +20,7 @@ public abstract class Futbolista implements Comparable {
 		return false;
 	}
 	public String toString() {
-		return "El futbolista "+nombre+" tiene: "+edad+" y juega de: "+posicion;
+		return "El futbolista "+nombre+" tiene "+edad+" y juega de "+posicion;
 	}
 	public String getNombre() {
 		return nombre;
